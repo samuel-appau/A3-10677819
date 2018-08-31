@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+char grade;
+int score;
+cout<<"Welcome to WAEC Grading System"<<endl;
+
+cout<<"Please Enter your score"<<endl;
+
+cin>>score;
+
+if(score>=75&&score<=100){
+
+cout<<"You had A1--Excellent"<<endl;
+}
+
+else if(score>=70&&score<74){
+cout<<"You had B2--Very Good"<<endl;
+}
+else if(score>=65&&score<70){
+cout<<"You had B3--Good"<<endl;
+}
+else if(score>=60&&score<64){
+cout<<"You had C4--Credit"<<endl;
+}
+else if(score>=55&&score<60){
+cout<<"You had C5--Credit"<<endl;
+}
+else if(score>=50&&score<55){
+cout<<"You had C6--Credit"<<endl;
+}
+else if(score>=45&&score<50){
+cout<<"You had D7--Pass"<<endl;
+}
+else if(score>=40&&score<=45){
+cout<<"You had E8--Pass"<<endl;
+}
+else{
+cout<<"You had F9--Fail"<<endl;
+}
+return 0;
+}
+
+
+
+
